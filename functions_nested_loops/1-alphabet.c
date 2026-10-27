@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print a random value and whether it is positive, negative or zero.
+ * print_alphabet - print the alphabet in lowercase.
  *
- * Return: Always 0 (Success)
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
