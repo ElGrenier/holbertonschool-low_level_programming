@@ -17,6 +17,6 @@ return (0);
 }
 else
 {
-return (n*-1);
+return (n * -1);
 }
 }
