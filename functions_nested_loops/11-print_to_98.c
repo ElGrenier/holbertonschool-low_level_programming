@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* add - adds two integers
-* @a: first integer
-* @b: second integer
-* Return: the sum of a and b
+* print_to_98 - prints numbers from n to 98
+* @n: starting integer
 */
 void print_to_98(int n)
 {
