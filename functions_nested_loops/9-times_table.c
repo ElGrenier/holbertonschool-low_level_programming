@@ -24,9 +24,9 @@ _putchar(result % 10 + '0');
 if (j != 9)
 {
 _putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
-_putchar(' ');
-_putchar(' ');
 }
 _putchar('\n');
 }
