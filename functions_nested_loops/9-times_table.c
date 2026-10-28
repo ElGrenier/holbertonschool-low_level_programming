@@ -14,7 +14,7 @@ for (j = 0; j <= 9; j++)
 result = i * j;
 if (result < 10)
 {
-_putchar(result+'0');
+_putchar(result + '0');
 }
 else
 {
@@ -29,4 +29,4 @@ _putchar(' ');
 }
 _putchar('\n');
 }
-}   
+}
