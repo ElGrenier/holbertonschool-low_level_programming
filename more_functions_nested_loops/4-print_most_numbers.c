@@ -12,10 +12,12 @@ while (number <= '9')
 if (number == '2')
 {
 continue;
+number++;
 }
 else if (number == '4')
 {
 continue;
+number++;
 }
 else
 {
