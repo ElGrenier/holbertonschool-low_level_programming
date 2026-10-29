@@ -21,6 +21,10 @@ if (!(i == 100))
 {
 printf(" ");
 }
+else
+{
+printf("\n");
+}
 continue;
 }
 if (!(i % 3) && !(i % 5))
