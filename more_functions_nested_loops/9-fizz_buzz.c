@@ -16,21 +16,17 @@ continue;
 }
 if (!(i % 5) && (i % 3))
 {
-printf("Buzz ");
+printf("Buzz");
+if (!(i == 100))
+{
+printf(" ");
+}
 continue;
 }
 if (!(i % 3) && !(i % 5))
 {
-if (!(i == 100))
-{
 printf("FizzBuzz ");
 continue;
-}
-else
-{
-printf("FizzBuzz");
-continue;
-}
 }
 printf("%d", i);
 printf(" ");
