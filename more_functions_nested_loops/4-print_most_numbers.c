@@ -11,13 +11,13 @@ while (number <= '9')
 {
 if (number == '2')
 {
-continue;
 number++;
+continue;
 }
 else if (number == '4')
 {
-continue;
 number++;
+continue;
 }
 else
 {
