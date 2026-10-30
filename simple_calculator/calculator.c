@@ -2,7 +2,7 @@
 /**
  * main - Make the calculator work
  *
- * Return: Always 1
+ * Return: Always 0
  */
 int main(void)
 {
@@ -21,5 +21,5 @@ if (choice == 0)
 printf("Bye!\n");
 }
 }
-return 0;
+return (0);
 }
