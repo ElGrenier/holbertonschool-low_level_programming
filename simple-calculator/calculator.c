@@ -1,38 +1,64 @@
 #include <stdio.h>
 /**
- * addition - do an adition
+ * ask_number - ask for numbers
+ *
+ * Return: x
+ */
+int ask_number(void)
+{
+int x;
+scanf("%d", &x);
+return (x);
+}
+
+/**
+ * menu_choice - Check the choice on the menu
+ * @choice: Choice in the menu
  *
  * Return: Nothing
  */
-void addition(void)
+void menu_choice(int choice)
 {
 int a, b;
-printf("A: ");
-scanf("%d", &a);
-printf("B: ");
-scanf("%d", &b);
-printf("Result: ");
-printf("%d", a + b);
-printf("\n");
-}
-/**
- * substraction - do an substraction
- *
- * Return: Nothing
- */
-void substraction(void)
+if (choice > 0 && choice < 5)
 {
-int a, b;
 printf("A: ");
-scanf("%d", &a);
+a = ask_number();
 printf("B: ");
-scanf("%d", &b);
-printf("Result: ");
-printf("%d", a - b);
-printf("\n");
+b = ask_number();
 }
+switch (choice)
+{
+case 0:
+printf("Bye!");
+break;
+case 1:
+printf("Result %d", a + b);
+break;
+case 2:
+printf("Result %d", a - b);
+break;
+case 3:
+printf("Result %d", a *b);
+break;
+case 4:
+if (b == 0)
+{
+printf("Error: division by zero");
+}
+else
+{
+printf("Result %d", a / b);
+}
+break;
+
+default:
+printf("Invalid choice");
+}
+}
+
 /**
- * main - Make the calculator work
+ * main - the calculator
  *
  * Return: Always 0
  */
@@ -45,18 +71,9 @@ printf("Simple Calculator\n");
 printf("1) Add\n2) Substract\n3) Multiply\n4) Divide\n0) Quit\n");
 printf("Choice: ");
 scanf("%d", &choice);
-if (choice > 4)
-{
-printf("Invalid choice");
-}
-if (choice == 0)
-{
-printf("Bye!\n");
-}
-if (choice == 1)
-addition();
-if (choice == 2)
-substraction();
+menu_choice(choice);
+printf("\n");
 }
 return (0);
 }
+
