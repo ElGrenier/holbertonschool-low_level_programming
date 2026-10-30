@@ -15,6 +15,8 @@ printf("2) Substract\n");
 printf("3) Multiply\n");
 printf("4) Divide\n");
 printf("0) Quit\n");
+printf("Choice: ");
+
 scanf("%d", &choice);
 if (choice == 0)
 {
