@@ -13,3 +13,6 @@ more_functions_nested_loops/9-fizz_buzz
 more_functions_nested_loops/10-main.c
 more_functions_nested_loops/10-triangles
 simple-calculator/calculator
+benchmarking/baseline_loop.c
+benchmarking/comparison_algorithms.c
+benchmarking/instrumentation
