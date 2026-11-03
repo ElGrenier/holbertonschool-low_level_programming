@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * print_array - print elements of an array of integers
- * @a: pointer to the array
- * @n: number of elements to print
+ * _strcpy - copy a string from source to destination
+ * @dest: pointer to the destination array
+ * @src: pointer to the source string
  *
- * Return: void
+ * Return: pointer to the destination string
  */
 char *_strcpy(char *dest, char *src)
 {
