@@ -1,19 +1,20 @@
 #include "main.h"
 /**
- * _puts - print a string
- * @str: pointer to the string
+ * print_rev - print a string in reverse
+ * @s: pointer to the string
  *
  * Return: void
  */
 void print_rev(char *s)
 {
-int i; 
+int i = 0;
 for (; *s != '\0'; s++)
 {
 i++;
 }
 s--;
-for (; i >= 0; i--)
+
+for (; i > 0; i--)
 {
 _putchar(*s);
 s--;
