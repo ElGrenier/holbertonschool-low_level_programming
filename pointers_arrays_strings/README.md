@@ -1,0 +1,1 @@
+# This folder contain all file related to Project 2 (Pointers and Array)
