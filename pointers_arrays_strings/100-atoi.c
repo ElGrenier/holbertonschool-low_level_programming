@@ -20,11 +20,11 @@ s++;
 
 while (*s >= '0' && *s <= '9')
 {
-number = number * 10 + (*s - '0');
+number = number * 10 - (*s - '0');
 s++;
 }
 
-if (minus % 2 != 0)
+if (minus % 2 == 0)
 {
 number = -number;
 }
