@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * _strcat - concatenate two strings
+ * _strncat - concatenate two strings
  * @dest: pointer to the destination array
  * @src: pointer to the source string
+ * @n: maximum number of characters to concatenate
  *
  * Return: pointer to the destination string
  */
