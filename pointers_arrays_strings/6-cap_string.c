@@ -11,6 +11,10 @@ char separators[] = " \t\n,;.!?\"(){}";
 int i = 0, j = 0;
 while (str[i] != '\0')
 {
+if (str[0] >= 'a' && str[0] <= 'z')
+{
+str[0] = str[0] - 32;
+}
 for (j = 0; separators[j] != '\0'; j++)
 {
 if (str[i] == separators[j])
