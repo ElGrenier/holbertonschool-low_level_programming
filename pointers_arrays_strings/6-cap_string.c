@@ -21,6 +21,7 @@ str[i + 1] = str[i + 1] - 32;
 }
 }
 }
+str++;
 }
 return (str);
 }
