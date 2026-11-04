@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * cap_string - capitalize all words of a string
+ * leet - convert a string to leet speak
  * @str: pointer to the string
  *
  * Return: pointer to the modified string
