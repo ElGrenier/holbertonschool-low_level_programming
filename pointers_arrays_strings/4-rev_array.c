@@ -8,7 +8,7 @@
  */
 void reverse_array(int *a, int n)
 {
-int i = 0, max = 0;
+int i = 0;
 char temp;
 
 /* Reverse the string */
