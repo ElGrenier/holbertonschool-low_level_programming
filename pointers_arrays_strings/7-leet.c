@@ -19,6 +19,7 @@ if (str[i] == leet[j])
 str[i] = leet_replace[j];
 }
 }
+i++;
 }
 return (str);
 }
