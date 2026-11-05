@@ -19,6 +19,7 @@ break;
 }
 else
 j = 0;
+break;
 }
 if (needle[j] == '\0')
 {
