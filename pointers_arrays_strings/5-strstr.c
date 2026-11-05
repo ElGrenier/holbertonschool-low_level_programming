@@ -26,4 +26,5 @@ return (&haystack[i]);
 }
 return (0);
 }
+return (0);
 }
