@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strpbrk - locate a character in a string
- * @s: pointer to the string
- * @accept: the character to locate
- * Return: pointer of first occurrence of character, NULL if not found
+ * _strstr - locate a substring in a string
+ * @haystack: pointer to the string
+ * @needle: the substring to locate
+ * Return: pointer of first occurrence of substring, NULL if not found
  */
 char *_strstr(char *haystack, char *needle)
 {
