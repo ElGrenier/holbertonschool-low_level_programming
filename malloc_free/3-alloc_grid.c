@@ -14,11 +14,11 @@ len++;
 return (len);
 }
 /**
- * str_concat - concatenates two strings
- * @s1: first string
- * @s2: second string
+ * alloc_grid - allocates a grid of integers
+ * @width: the width of the grid
+ * @height: the height of the grid
  *
- * Return: pointer to the concatenated string, or NULL if it fails
+ * Return: pointer to the allocated grid, or NULL if it fails
  */
 int **alloc_grid(int width, int height)
 {
