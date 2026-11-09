@@ -21,7 +21,7 @@ return (len);
  */
 char *_strdup(char *str)
 {
-unsigned int i;
+int i;
 char *array;
 
 if (str == NULL)
