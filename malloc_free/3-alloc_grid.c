@@ -35,6 +35,7 @@ for (i = 0; i < height; i++)
 grid[i] = malloc(width * sizeof(int));
 if (grid[i] == NULL)
 {
+free(grid);
 return (NULL);
 }
 for (j = 0; j < width; j++)
