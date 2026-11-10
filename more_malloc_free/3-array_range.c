@@ -20,7 +20,7 @@ ptr = malloc(sizeof(int) * delta);
 if (ptr == NULL)
 	return (NULL);
 
-for (i = 0; i <= delta; i++, min++)
+for (i = 0; i < delta; i++, min++)
 {
 ptr[i] = min;
 }
