@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _calloc - allocate memory with 0 bytes
- * @nmemb: number of element
- * @size: size of the element
+ * array_range - allocate memory with 0 bytes
+ * @min: min number
+ * @max: max number
  *
  * Return: pointer to the memory, NULL if failed
  */
