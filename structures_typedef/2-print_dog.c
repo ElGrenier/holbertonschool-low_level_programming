@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 /**
  * print_dog - print every other character of a string
  * @d: pointers to the dog
@@ -10,16 +11,16 @@ void print_dog(struct dog *d)
 	{
 	return;
 	}
-	if (d->name == 0)
+	if (d->name == NULL)
 	printf("Name: (nil)");
 	else
-	printf("Name: %s", d->name);
+	printf("Name: %s\n", d->name);
 	if (d->age == 0)
 	printf("Age: (nil)");
 	else
-	printf("Age: %f", d->age);
-	if (d->owner == 0)
+	printf("Age: %f\n", d->age);
+	if (d->owner == NULL)
 	printf("Owner: (nil)");
 	else
-	printf("Owner: %s", d->owner);
+	printf("Owner: %s\n", d->owner);
 }
