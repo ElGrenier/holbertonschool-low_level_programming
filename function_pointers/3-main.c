@@ -3,6 +3,8 @@
 #include "3-calc.h"
 /**
  * main - do thing on the array
+ * @argc: number of arguments
+ * @argv: list of arguments
  * Return: void
  */
 int main(int argc, char *argv[])
@@ -28,6 +30,6 @@ if ((operation == op_div || operation == op_mod) && b == 0)
 	printf("Error\n");
 	exit(100);
 }
-	printf("%d", operation(a, b));
+	printf("%d\n", operation(a, b));
 	return (0);
 }
