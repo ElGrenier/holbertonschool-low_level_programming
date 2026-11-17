@@ -12,21 +12,22 @@ int (*operation)(int, int);
 
 if (argc != 4)
 {
-	printf("Error");
+	printf("Error\n");
 	exit(98);
 }
 operation = get_op_func(argv[2]);
 if (operation == NULL)
 {
-	printf("Error");
+	printf("Error\n");
 	exit(99);
 }
 	a = atoi(argv[1]);
 b = atoi(argv[3]);
 if ((operation == op_div || operation == op_mod) && b == 0)
 {
-	printf("Error");
+	printf("Error\n");
 	exit(100);
 }
 	printf("%d", operation(a, b));
+	return (0);
 }
