@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - print the name of the file
+ * @argc: number of arguments
+ * @argv: list of arguments
+ * Return: void
+ */
+int main(int argc, char *argv[])
+{
+int i;
+for (i = 0; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
+return (0);
+}
