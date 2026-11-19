@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_numbers - create new dog
+ * print_strings - create new dog
  * @n: numbers
  * @separator: Separator between numbers
- * Return: total number (int)
+ * Return: nothing
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
