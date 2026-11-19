@@ -18,7 +18,7 @@ if (n == 0)
 
 va_start(args, n);
 
-for (i = 0; i< n; i++)
+for (i = 0; i < n; i++)
 {
 	somme += va_arg(args, int);
 }
