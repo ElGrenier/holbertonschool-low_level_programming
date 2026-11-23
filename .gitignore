@@ -16,3 +16,4 @@ simple-calculator/calculator
 benchmarking/baseline_loop.c
 benchmarking/comparison_algorithms.c
 benchmarking/instrumentation
+ai_memory_visualizer_valgrind_tracer/programs
