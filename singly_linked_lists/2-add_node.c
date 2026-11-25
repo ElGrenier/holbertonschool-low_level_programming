@@ -3,6 +3,26 @@
 
 #include "lists.h"
 
+
+/**
+ * _strlen - calculate the length of a string
+ * @s: pointer to the string
+ *
+ * Return: the length of the string
+ */
+int _strlen(char *s)
+{
+int len = 0;
+while (s[len] != '\0')
+len++;
+
+return (len);
+}
+
+
+
+
+
 /**
  * add_node - add a new node
  * @head: pointer to the head
@@ -23,7 +43,7 @@ list_t *add_node(list_t **head, const char *str)
 		free(new);
 		return (NULL);
 	}
-	new->len = strlen(str);
+	new->len = _strlen(str);
 	new->next = *head;
 	*head = new;
 
